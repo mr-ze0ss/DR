@@ -1,0 +1,860 @@
+body{
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */ 
+  font-family: "Roboto", serif;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+ 
+}
+
+
+.topo{
+  width: 100%;
+  margin: 0;
+  height: 54px;
+  background-color:#FFFFFF;
+  box-sizing: border-box;
+  border-bottom: 1px solid #DBDBDB;
+  position:fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: flex;
+  
+}
+.storie{
+width: 614px;
+height: 118px;
+top: 588px;
+left: 215px;
+gap: 0px;
+border-radius: 3px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background-color: #FFFFFF;
+display: flex; 
+justify-content:space-between;
+border: 1px solid #DBDBDB;
+overflow: hidden;
+align-items: center;
+position: absolute;
+
+
+}
+.post1{
+width: 612px;
+height: 612px;
+margin-top: 230px;
+left: 0px;
+gap: 0px;
+border-radius: 3px 0px 0px 0px;
+opacity: 0px;
+
+}
+.post2{
+width: 612px;
+height: 612px;
+margin-top: 230px;
+margin-left: 215px;
+gap: 0px;
+border-radius: 3px 0px 0px 0px;
+opacity: 0px;
+background-color: aqua;
+}
+.logo{
+width: 103px;
+top: 14px;
+margin-left: 21%;
+margin-top: 0px;
+opacity: 0px;
+}
+
+.icone-direct{
+position: relative;
+left: 50%;
+top: 16px;
+width: 22px;
+height: 22px;
+}
+.icone-buscar{
+position: relative;
+left: 51%;
+top: 16px;
+width: 20px;
+height: 20px;
+}
+.icone-coração{
+  position: relative;
+  left: 52%;
+  top: 16px;
+  width: 20px;
+  height: 20px;
+}
+.icone-perfil{
+  position: relative;
+  left: 53%;
+  top: 16px;
+  width: 20px;
+  height: 20px;
+}
+.container{
+  width: 900px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bg1{
+width: 66px;
+height: 66px;
+margin-top: 98px;
+margin-left: 233px;
+gap: 0px;
+border-radius: 33px 0px 0px 0px;
+opacity: 0px;
+position: absolute;
+}
+.container-storie{
+  width: 614px;
+  height: 118px;
+  background-color: white;
+  left: 21%;
+  margin-top: 80px;
+  border: solid 1px #DBDBDB;
+  position: static;
+  overflow: hidden;
+  border-radius: 3px;
+  position: absolute;
+  
+}
+.stories{
+margin-top: -70px;
+margin-left: -190px;
+position: relative;
+
+}
+.storie1{
+  width:60px;
+  height:60px;
+  margin-top:101px;
+  margin-left:236px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  
+  }
+  .lg1{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: "Roboto Condensed", serif;
+    font-family: "Roboto", serif;
+    font-weight: 20;
+  }
+  .bg2{
+  width: 66px;
+  height: 66px;
+  margin-top: 98px;
+  margin-left: 313px;
+  gap: 0px;
+  border-radius: 33px 0px 0px 0px;
+  opacity: 0px;
+  position:absolute  
+  }
+  .storie2{
+    width: 60px;
+    height: 60px;
+    margin-top: 101px;
+    margin-left: 316px;
+    gap: 0px;
+    border-radius: 50%;
+    position: absolute;
+    }
+  .bg3{
+  width: 66px;
+  height: 66px;
+  margin-top: 98px;
+  margin-left: 393px;
+  gap: 0px;
+  border-radius: 33px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  }
+  .storie3{
+  width:60px;
+  height:60px;
+  margin-top:101px;
+  margin-left:396px;
+  gap: 0px;
+  border-radius: 50%;
+  opacity: 0px;
+  position: absolute;
+  }
+  .bg4{
+  width: 66px;
+  height: 66px;
+  margin-top: 98px;
+  margin-left:473px;
+  gap: 0px;
+  border-radius: 33px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  }
+  .storie4{
+  width: 60px;
+  height: 60px;
+  margin-top: 101px;
+  margin-left: 476px;
+  gap: 0px;
+  border-radius: 50%;
+  opacity: 0px;
+  position: absolute;
+  }
+  .bg5{
+  width: 66px;
+  height: 66px;
+  margin-top: 98px;
+  margin-left: 553px;
+  gap: 0px;
+  border-radius: 33px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  }
+  .storie5{
+  width: 60px;
+  height: 60px;
+  margin-top: 101px;
+  margin-left: 556px;
+  gap: 0px;
+  border-radius: 50%;
+  opacity: 0px;
+  position: absolute;
+  }
+  .bg6{
+  width: 66px;
+  height: 66px;
+  margin-top: 98px;
+  margin-left: 633px;
+  gap: 0px;
+  border-radius: 33px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  }
+  .storie6{
+  width: 64px;
+  height: 64px;
+  margin-top: 99px;
+  margin-left: 634px;
+  border-radius: 50%;
+  position: absolute;
+  }
+  .bg7{
+  width: 66px;
+  height: 66px;
+  margin-top: 98px;
+  margin-left: 713px;
+  gap: 0px;
+  border-radius: 33px 0px 0px 0px;
+  opacity: 0px;
+  position:absolute;
+  }
+  .storie7{
+  width: 60px;
+  height: 60px;
+  margin-top: 101px;
+  margin-left: 716px;
+  gap: 0px;
+  border-radius: 50%;
+  opacity: 0px;
+  position: absolute;
+  }
+  .bg8{
+  width: 66px;
+  height: 66px;
+  margin-top: 98px;
+  margin-left: 793px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  }
+  .storie8{
+  width: 56px;
+  height: 56px;
+  margin-top: 101px;
+  margin-left: 798px;
+  gap: 0px;
+  border-radius: 28px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  }
+
+  .lege_1{
+    position: absolute;
+    margin-top:165px;
+    margin-left:31%;
+    
+  }
+  .lege_2{
+    position: absolute;
+    margin-top:165px;
+    margin-left:40.5%;
+    
+  }
+  .lege_3{
+    position: absolute;
+    margin-top:165px;
+    margin-left:50.5%;
+    
+  }
+  .lege_4{
+    position: absolute;
+    margin-top:165px;
+    margin-left:60.5%;
+    
+  }
+  .lege_5{
+    position: absolute;
+    margin-top:165px;
+    margin-left:71%;
+    
+  }
+  .lege_6{
+    position: absolute;
+    margin-top:165px;
+    margin-left:80%;
+    
+  }
+  .lege_7{
+    position: absolute;
+    margin-top:165px;
+    margin-left:89%;
+    
+  }
+  .lege_8{
+    position: absolute;
+    margin-top:165px;
+    margin-left:0;
+    
+  }
+.conteudo{
+  
+  width: 850px;
+  height: 2100px;
+  margin-left: 15.5%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Define a direção dos elementos como coluna */
+  justify-content: center; /* Centraliza os elementos na coluna */
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-between;
+  
+}
+.conteudo1{
+display: flex;
+width: 614px;
+height: 717px;
+top: 230px;
+left: 21.5%;
+gap: 0px;
+border: 1px solid #DBDBDB;
+opacity: 0px;
+background-color: white;
+position: absolute;
+}
+.gato{
+width: 614px;
+height: 650px;
+top: 40px;
+left: 0px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+.mewed1{
+width: 32px;
+height: 32px;
+margin-top: 5px;
+margin-left: 10px;
+border-radius: 50%;
+display: flex;
+}
+.mewed2{
+  width: 100px;
+  height: 21px;
+  top: 15px;
+  left: 70px;
+  display: flex;
+  position: absolute;
+}
+.fim{
+position: absolute;
+margin-top: 6%;
+}
+.coração{
+  top: 660px;
+  left:8px;
+  position: absolute;
+}
+.chat{
+  top: 660px;
+  left:30px;
+  position: absolute;
+}
+.papel{
+  top: 660px;
+  left:55px;
+  position: absolute;
+}
+.salvar2{
+  margin-top: 675px;
+  left:550px;
+  position: absolute;
+}
+
+.logo-postador2{
+  width:30%;
+  height:90%;
+  border-radius: 50%;
+}
+
+.conteudo2{
+  width: 614px;
+  height: 714px;
+  margin: 10px;
+  top: 985px;
+  left: 21%;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #DBDBDB;
+}
+.cachorro{
+width: 614px;
+height: 650px;
+top: 40px;
+left: -0.3px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+.barked1{
+width: 32px;
+height: 32px;
+margin-top: 5px;
+margin-left: 10px;
+border-radius: 50%;
+display: flex;
+}
+.barked2{
+width: 100px;
+height: 21px;
+top: 15px;
+left: 70px;
+display: flex;
+position: absolute;
+}
+.fim2{
+  position: absolute;
+}
+
+.conteudo3{
+  width: 614px;
+  height: 714px;
+  margin: 10px;
+  top: 1740px;
+  left: 21%;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #DBDBDB;
+  
+}
+.gato-preto{
+  width: 614px;
+  height: 650px;
+  top: 40px;
+  left: -0.3px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+.mewed3{
+width: 32px;
+height: 32px;
+margin-top: 10px;
+margin-left: 10px;
+border-radius: 50%;
+display: flex;
+}
+.mewed4{
+width: 32px;
+height: 32px;
+margin-top: -25px;
+margin-left: 50px;
+border-radius: 50%;
+display: flex;
+}
+.nome-postador1{
+  width: 32px;
+  height: 32px;
+  top: 250px;
+  left: 279px;
+  gap: 0px;
+  position: absolute;
+
+}
+.nome-postador2{
+  margin-left: -15%;
+  margin-top: 3.4%;
+}
+.postagem1{
+  width: 600px;
+  height: 612px;
+  left: 216px;
+  background-color: green;
+}
+.postagem2{
+  width: 612px;
+  height: 612px;
+  left: 216px;
+}
+.coração{
+  margin-top:1%;
+}
+.salvar2{
+ margin-left: 90%;
+ position: relative;
+  top: -15px;
+ 
+}
+.barra_de_opções{
+overflow: hidden;
+height:5%;
+}
+.icones-opções{
+  width:10%;
+  height: 10%;
+}
+.icones_do_topo{
+  margin-left: 20%;
+}
+.catanacomics{
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  
+}
+.absoluto{
+  width: 300px;
+  height: 600px;
+  margin-left: 59%;
+  margin-top:120px;
+  position: absolute;
+
+}
+.recomendados{
+  height: 58px;
+  width: 200px;
+  margin-left: 0%;
+  
+}
+.nome-reco{
+  margin-left:30%;
+  margin-top: -20%;
+}
+.span{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+line-height: 16.41px;
+text-align: left;
+margin-left: 30%;
+color: gray;
+}
+.sugestões-para-você{
+  color: gray;
+  margin-top: 4%;
+  margin-left: 10px;
+  position: absolute;
+}
+.perfis{
+  width: 200px;
+  height: 800px;
+  margin-left: 1150px;
+  margin-top: 40px;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  
+}
+
+.bad{
+  border-radius: 50%;
+  margin-left: -1150px;
+  position: absolute;
+
+}
+.text1{
+  margin-left: -1100px;
+  margin-top: 10px;
+  position: absolute;
+}
+.chibdart{
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: -1150px;
+  position: absolute;
+}
+.text2{
+  margin-left: -1100px;
+  margin-top: 50px;
+  position: absolute;
+}
+.razoespracreditar{
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: -1150px;
+  position: absolute;
+  
+}
+.text3{
+  margin-left: -1100px;
+  margin-top: 100px;
+  position: absolute;
+}
+.adorable_animals{
+  border-radius: 50%;
+  margin-top: 150px;
+  margin-left: -1150px;
+  position: absolute;
+}
+.text4{
+  margin-left: -1100px;
+  margin-top: 150px;
+  position: absolute;
+}
+.gato-laranja{
+  border-radius: 50%;
+  margin-top: 200px;
+  margin-left: -1150px;
+  position: absolute;
+}
+.text5{
+  margin-left: -1100px;
+  margin-top: 200px;
+  position: absolute;
+}
+.seguires{
+  width: 300px;
+  height: 250px;
+  margin-top: 70px;
+  margin-left: 250px;
+  position: absolute;
+  font-family: "Roboto", serif;
+  display:flex ;
+}
+.seguir{
+  left: 0px;
+  top: 233px;
+  margin-top: -20px;
+  color:  #139EF2;
+  
+ 
+}
+.seguir2{
+  left: 0;
+  margin-top: 25px;
+  color:  #139EF2;
+  position: absolute;
+  
+}
+.seguir3{
+  left: 0px;
+  margin-top: 80px;
+  color:  #139EF2;
+  position: absolute;
+}
+.seguir4{
+  margin-left: 0;
+  margin-top: 130px;
+  color:  #139EF2;
+  position: absolute;
+  
+}
+.seguir5{
+  margin-left:0;
+  margin-top: 180px;
+  color:  #139EF2;
+  position: absolute;
+ 
+}
+.text_finals{
+width: 300px;
+height: 42px;
+margin-top: 250px;
+margin-left: -1150px;
+gap: 0px;
+opacity: 0px;
+font-size: 11px;
+color: #C7C7C7;
+position: absolute;
+}
+.text_fnn{
+width: 1000px;
+height: 1px;
+margin-top: 300px;
+margin-left: -1150px;
+gap: 0px;
+opacity: 0px;
+font-size: 11px;
+color: #C7C7C7;
+}
+@media(max-width: 1700px){
+  .absoluto{
+    
+    display: none;
+  }
+}
+  
+@media (max-width:915px){
+  .absoluto{
+    display: none;
+  }
+  .body{
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .container-storie{
+    margin-left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+  .conteudo{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  
+  }
+ .conteudo1{
+  left: 51%;
+  transform: translateX(-50%);
+
+ }
+ .conteudo2{
+  left: 50%;
+  transform: translateX(-50%);
+ }
+.conteudo3{
+  position: relative;
+  
+  left:2%;
+}
+  .logo{
+    margin-left: 1%;
+  }
+.icone-direct{
+  left: 59%;
+}
+.icone-buscar{
+  left:62%;
+}
+.icone-coração{
+  left: 65%;
+}
+.icone-perfil{
+  left: 69%;
+}
+}
+@media (max-height:1215px){
+  .body{
+    overflow-y: hidden;
+    
+  }
+}
+@media(min-width:614px){
+  .barra-inferior{
+    display: none;
+  }
+}
+@media (max-width:614px){
+  .logo{
+    margin-left: 250px;
+  }
+  .body{
+    overflow-x: hidden;
+  }
+
+ .conteudo1{
+  left: 309px;
+  margin-top: 70px;
+  position: absolute;
+ }
+ .conteudo2{
+  left: 300px;
+  margin-top: 50px;
+  position: absolute;
+ }
+ .conteudo3{
+  left: -1%;
+  margin-top: 50px;
+  position: absolute;
+}
+.container-storie{
+  border: #FFFFFF;
+}
+.gato-preto{
+  height: 614px;
+}
+.barra-inferior{
+    width: 100%;
+    height: 56px;
+    display: none; /* Ocultar em telas maiores que 614px */
+    position: fixed; /* Fixar na tela */
+    bottom: 0; /* Posicionar na parte inferior da tela */
+    left: 0; /* Posicionar na borda esquerda da tela */
+    display: flex; /* Ou flex-direction: column; para espaçamento vertical */
+    justify-content: space-between; /* Ou space-around ou space-evenly */
+    background-color: #FFFFFF;
+    border: solid 1px #DBDBDB;
+ 
+}
+.filhos {
+  display: flex; /* Habilita o flexbox */
+  justify-content: space-around; /* Distribui os elementos igualmente */
+  width: 614px;
+  height: 56px;
+  margin: 10px;
+  margin-left: -30px;
+}
+.filhos ion-icon { /* Aplica o espaçamento aos ícones */
+  margin: 0 10px; /* Adiciona 10px de margem à direita e à esquerda de cada ícone */
+  padding-top: 10px;
+}
+.home{
+  margin-left: 10px;
+  position: relative;
+}
+.search{
+  margin-top: 5px;
+}
+.conteudo{
+  height: 1215px; 
+}
+.body{
+  height: 1215px;
+}
+
+
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
